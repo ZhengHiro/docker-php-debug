@@ -7,6 +7,11 @@ ENV PHPPDOMYSQL_VERSION 1.0.2
 RUN apk add --update \
     # redis \
     php5-mysql \
+    gcc \
+    g++ \
+    make \
+    libffi-dev \
+    openssl-dev \
     libpng \
     autoconf \
     libpng-doc \
