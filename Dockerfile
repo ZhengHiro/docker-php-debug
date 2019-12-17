@@ -10,8 +10,6 @@ RUN apk add --update \
     gcc \
     g++ \
     make \
-    libffi-dev \
-    openssl-dev \
     libpng \
     autoconf \
     libpng-doc \
