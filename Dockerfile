@@ -8,6 +8,7 @@ RUN apk add --update \
     # redis \
     php5-mysql \
     libpng \
+    autoconf \
     libpng-doc \
     libpng-utils \
     libpng-dev \
