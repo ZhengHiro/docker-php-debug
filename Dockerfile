@@ -33,7 +33,6 @@ RUN apk add --update \
     && tar zxvf /tmp/redis.tar.gz \
     && tar zxvf /tmp/mongodb.tar.gz \
     && tar zxvf /tmp/PDO_MYSQL.tar.gz \
-    && pecl install xhprof-0.9.4 && docker-php-ext-enable xhprof \
     && mv redis-$PHPREDIS_VERSION /usr/src/php/ext/redis \
     && mv mongodb-$PHPMONGODB_VERSION /usr/src/php/ext/mongodb \
     && mv PDO_MYSQL-$PHPPDOMYSQL_VERSION /usr/src/php/ext/pdo_mysql \
